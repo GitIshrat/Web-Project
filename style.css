@@ -380,9 +380,6 @@ color: white;
 }
 
 .play-btn i{
-position: absolute;
-left: 50%;
-top: 50%;
 transform: translateY(2150%);
 color: #fff;
 font-size: 100px;	
