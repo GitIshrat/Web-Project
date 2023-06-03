@@ -452,7 +452,7 @@ line-height: 54px;
  content: '';
  width: 95%;
  height: 47%;
- background-color:#DC3545 ;
+ background-color:#F78374 ;
  position: absolute;
  left: 0;
  right: 0;
@@ -591,7 +591,7 @@ font-size: 18px;
   border: solid 1px #F4F6F9;
 }
 .car:hover{
-	background-color: #DC3545;
+	background-color: #F78374;
 	opacity: 0.6;
 	color: white;
 	}
