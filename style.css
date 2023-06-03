@@ -331,16 +331,14 @@ color: white;
 	font-weight: 900;
 	color: #0e1133;
 	line-height: 32px;
-
 }
 
 .blogg .card{
 border: none;
-
+background-color:#E1E5E8;
 }
 .blogg .card:hover{
-	background-color: #B2C23D;
-
+background-color: #F78374;
 color: #ffff;
 }
 
