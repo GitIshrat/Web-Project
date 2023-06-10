@@ -12,6 +12,7 @@
 	margin-right: 25px;
 	transition: all 0.4s;
 	font-size: 20px;
+	top: 0;
 }
 
 .nav-item a:hover{
@@ -56,11 +57,6 @@ transform: translateX(-20px);
 	
 }
 
-
-
-
-
-
 .main h1{
 	font-size: 70px;
 	font-family: Roboto, sans-serif;;
@@ -74,14 +70,13 @@ background: linear-gradient(90deg, rgb(251, 45, 78) 25%, rgb(78, 136, 255) 75%);
 }
 .main p{
 	font-size: 19px;
-	
 	margin-left: 85px;
 	transform: translateX(-20px);
 }
 .mbtn2{
 	color: #292C4A;
 	background-color: white;
-	padding: 7px 22px;
+	padding: 8px 25px;
 	font-size: 18px;
 	border: solid 2px #292C4A;
 	border-radius: 10px;
@@ -99,11 +94,59 @@ color: white;
 	font-size: 18px;
 	border: solid 2px #292C4A;
 	border-radius: 10px;
-transform: translateX(-15px);
+transform: translateX(-30px);
 }
 .mbtn1:hover{
 background-color: white;
-color: #292C4A;
+color: black;
+}
+
+
+                                                /*mobile view*/
+
+
+@media (max-width: 768px){
+.mbtn1 {
+  color: white;
+  background-color: #292C4A;
+  padding: 7px 16px;
+  font-size: 18px;
+  border: solid 2px #292C4A;
+  border-radius: 10px;
+  transform: translateX(-80px);
+}
+
+.mbtn2 {
+  color: #292C4A;
+  background-color: white;
+  padding: 7px 16px;
+  font-size: 18px;
+  border: solid 2px #292C4A;
+  border-radius: 10px;
+  transform: translateY(-198px);
+  margin-left: 198px;
+}
+
+.main {
+  background-image: url('img/4a.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+.main p {
+text-align: center;
+ transform: translateX(-80px);
+}
+.main h1{
+	margin-top: -65px;
+	font-size: 58px;
+
+}
+.brain img {
+  width: 100%;
+  margin-top: -180px;
+  margin-left: 10px;
+}
 
 }
 
@@ -117,7 +160,7 @@ color: #292C4A;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	height: 780px;	
+	height: 740px;	
 }
 
 
@@ -178,12 +221,13 @@ color: white;
 
 /*----------------------------Solution--------------------*/
 
-.solution h1{
+.sol h1{
 	font-size: 44px;
 	font-family: Roboto, sans-serif;;
 	font-weight: 900;
 	color: #0e1133;
 	line-height: 53px;
+	
 }
 .solution p{
 	font-size: 18px;
@@ -195,6 +239,7 @@ color: white;
 	font-weight: 700;
 	color: #0e1133;
 	line-height: 24px;
+
 }
 
 .solution .circle{
@@ -215,9 +260,8 @@ color: white;
 	color:  #FFFFFF;
 }
 
-
-
 /*---------------------------------Work------------*/
+
 
 
 .work h1{
@@ -257,7 +301,7 @@ color: white;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	background-attachment: fixed;
+	
 }
 
 
@@ -280,24 +324,20 @@ color: white;
 
 .welcome .card:hover{
 	background-color:#F78374;
+	
 	}
 
-.welcome .circle{
-	height: 50px;
-	width: 50px;
+ .button{
+	
 	border-radius: 30%;
-	background-color: #F85943;
+	
 	color: white;
 	text-align: center;
 	padding-top: 8px;
-	font-size: 22px;
+	font-size: 30px;
 	border: none;
 	text-align: center;
 	margin-left: 85px;
-}
-.welcome .circle:hover{
-	background-color: #2D7EE8;
-	color:  #FFFFFF;
 }
 
 /*-------------------------blog------------*/
@@ -307,7 +347,7 @@ color: white;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	background-attachment: fixed;
+	
 	height: 950px;
 	
 }
@@ -330,6 +370,7 @@ color: white;
 	font-weight: 900;
 	color: #0e1133;
 	line-height: 32px;
+
 }
 
 .blogg .card{
@@ -337,7 +378,8 @@ border: none;
 background-color:#E1E5E8;
 }
 .blogg .card:hover{
-background-color: #F78374;
+	background-color: #F78374;
+
 color: #ffff;
 }
 
@@ -360,6 +402,7 @@ color: white;
 /*-------------template-------------*/
 
 
+
 .temp{
 	background-color:#EEF1F6;
 }
@@ -376,42 +419,68 @@ color: white;
 	font-size: 19px;	
 }
 
+.template .play-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  background-image: url(../img/faq-play-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.template .play-box .play-btn a {
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  line-height: 80px;
+  background: #fff;
+  border-radius: 50%;
+  color: #2b70fa;
+  position: relative;
+}
+
+
 .play-btn i{
-transform: translateY(2150%);
-color: #fff;
-font-size: 100px;	
  width: 60px;
  position: absolute;
  left: 75%;
  top: 40%;
-}
-.box-1{
-padding: 50px;
-width: 220px;
-margin-top: -166px;
-position: relative;
-}
-.box-2{
-padding: 50px 20px;
-margin-top: -166px;
-position: relative;
-width: 220px;
-background-color: #1D1E3E;
-color: white;
+ transform: translateY(2150%);
+	color: #fff;
+	font-size: 100px;
 }
 
+
+.box-1{
+	padding: 50px;
+
+	width: 220px;
+	
+	margin-top: -166px;
+	position: relative;
+}
+.box-2{
+	padding: 50px 20px;
+	margin-top: -166px;
+	position: relative;
+	width: 220px;
+	background-color: #1D1E3E;
+	color: white;
+}
 
 /*------------team -----member-------------*/
 .team{
-background-color:#D5F3FE;
+	background-color:#D5F3FE;
 }
 
 .team h1{
   font-size: 44px;
-font-family: Roboto, sans-serif;;
-font-weight: 900;
-color: #0e1133;
-line-height: 54px;
+	font-family: Roboto, sans-serif;;
+	font-weight: 900;
+	color: #0e1133;
+	line-height: 54px;
 }
 .team h5{
 	font-size: 20px;
@@ -425,14 +494,26 @@ line-height: 54px;
 }
 .box{
 	width:270px;
+			height: auto;
 	overflow: hidden;
 	position: relative;
 	margin: 0px auto;
+	transition: all 0.5s linear;
+}
+
+.box:hover{
+	width:270px;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+	margin: 0px auto;
+	border-radius: 50%;
+
 }
 
 .box img{
 	width: 100%;
-	height: auto;
+			height: auto;
 	display: block;
 }
 
@@ -447,7 +528,7 @@ line-height: 54px;
 .box .box-content:before,
 .box .box-content:after{
  content: '';
- width: 95%;
+ width: 100%;
  height: 47%;
  background-color:#F78374 ;
  position: absolute;
@@ -498,6 +579,7 @@ margin-top: 50px;
 margin-right: 0px;
 font-size: 18px;
 }
+
 
 
 
@@ -584,16 +666,15 @@ font-size: 18px;
 	background-color:white;
 	margin: 30px 42px;
   box-sizing: border-box;
-  box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 1.0);
-  border: solid 1px #F4F6F9;
+  border: 1px solid rgb(0, 0, 0, .1);
+  box-shadow: 10px 10px 10px rgb(0, 0, 255, 1),
+  -10px -10px 10px rgb(0, 0, 0, 1);
 }
 .car:hover{
 	background-color: #F78374;
 	opacity: 0.6;
 	color: white;
 	}
-
-
 
 
 /*-------------------contact-------------------------*/
@@ -642,7 +723,6 @@ height: 350px;
 /*------------------footer-------------------------*/
 
 
-
 .footer-area p{
 	font-size: 17px;
 	
@@ -657,4 +737,111 @@ margin-bottom: 25px;
 }
 .logo{
 	margin-right: 40px;
+}
+.mbtn3{
+	color: white;
+	background-color: #292C4A;
+	padding: 7px 20px;
+	font-size: 18px;
+	border: solid 2px #292C4A;
+	border-radius: 10px;
+  transform: translateX(-15px);
+}
+
+.mbtn4{
+	color: #292C4A;
+	background-color: white;
+	padding: 7px 15px;
+	font-size: 18px;
+	border: solid 2px #292C4A;
+	border-radius: 10px;
+}
+                                                                    /*mobile view*/
+
+@media (max-width: 768px){
+
+.mobile1 img {
+  height: 150px;
+  width: 230px;
+  margin-left: -50px;
+}
+.mobile img{
+	height: 160px;
+  width: 230px;
+   margin-left: -60px;
+}
+.sol p {
+  font-size: 18px;
+  margin-top: 150px;
+  margin-bottom: 1rem;
+  line-height: 20px;
+
+}
+.sol h1 {
+  
+  line-height: 120px;
+ 
+}
+.solu img{
+	width: 100%;
+	margin-left: -5px;
+}
+.work img{
+	width: 100%;
+	margin-left: -5px;
+}
+.ms-5 {
+  margin-left: .5rem !important;
+}
+.temp h1{
+	font-size: 40px;
+	margin-left: 25px;
+}
+.temp p{
+	margin-left: 25px;
+}
+.temp .card{
+	margin-left: 25px;
+}
+
+
+.text-start {
+  text-align: center !important;
+}
+.contact h1{
+	margin-right: 25px;
+}
+.contact p{
+	margin-right: 15px;
+}
+.ms-5 {
+  margin-left: -8px !important;
+}
+.box-1 {
+  padding: 30px 0px;
+  width: 150px;
+  margin-top: -120px;
+  position: relative;
+}
+.box-2 {
+  padding: 30px 0px;
+  margin-top: -120px;
+  position: relative;
+  width: 150px;
+  background-color: #1D1E3E;
+  color: white;
+  margin-left: 150px;
+}
+.mbtn3 {
+	padding: 8px 7px;
+	font-size: 15px;
+}
+.mbtn4 {
+	margin-top: 5px;
+	padding: 0px 20px;
+	font-size: 15px;
+	margin-right: 25px;
+}
+
+
 }
